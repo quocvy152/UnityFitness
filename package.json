@@ -3,18 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+    "test": "mocha"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "buffer": "^6.0.3",
+    "chai-http": "^5.0.0",
     "express": "^4.19.2",
     "mqtt": "^5.8.0"
   },
   "devDependencies": {
+    "chai": "4.5.0",
+    "mocha": "^10.7.0",
     "nodemon": "^3.1.4"
   }
 }

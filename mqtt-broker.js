@@ -1,4 +1,4 @@
-const mqtt = require('mqtt');
+import mqtt from 'mqtt'
 
 // host: 'broker.hivemq.com',
 const clientId = `mqtt_${Math.random().toString(16).slice(3)}`;
@@ -157,4 +157,4 @@ function SocketMQTT() {
     }, 18000);
 }
 
-exports.SocketMQTT = SocketMQTT;
+export default SocketMQTT;
